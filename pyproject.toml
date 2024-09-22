@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wrm3_settings"
+version = "0.1.0"
+description = "A settings library for keeping your settings in a json file, that you can edit and hot load in looping scripts"
+authors = [{name = "wrm3", email = "wrmartel3@gmail.com"}]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/wrm3/wrm3_settings"
+"Bug Tracker" = "https://github.com/wrm3/wrm3_settings/issues"
+
+[tool.setuptools]
+packages = ["wrm3_settings"]
+include-package-data = true
